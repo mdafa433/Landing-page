@@ -4,29 +4,77 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css?family=Viga" rel="stylesheet">
     <title>Landing page</title>
 </head>
 <body>
-    <header>
+    <header class="">
         <nav class="flex justify-around items-center text-white mt-4">
-            <p class="text-[32px] font-bold">Sandhika</p>
+            <p class="text-[32px] font-viga">Muhammad Dafa</p>
             <ul class="flex uppercase space-x-6">
                 <li><a href="">Home</a></li>
                 <li><a href="">Pricing</a></li>
                 <li><a href="">Features</a></li>
                 <li><a href="">About</a></li>
-                <li><a class="bg-blue-500 rounded-full p-3" href="">JOIN US</a></li>
+                <li><a class="bg-[#0B63DC] rounded-full p-3" href="">JOIN US</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <div class="">
-          <div class="w-screen bg-cover bg-no-repeat h-[650px] absolute -z-50 top-0" style="background-image: url('/img/jumbotron-bg.jpg');"></div>
+        <div>
+          <div class="w-full bg-cover bg-no-repeat h-[650px] absolute -z-50 top-0 bg-[url('/img/jumbotron-bg.jpg')]"></div>
         </div>
-        <article class="">
+        <article>
             <span class="text-white text-[4.5rem] flex justify-center mt-40">Get work done faster</span>
             <p class="text-white text-[4.5rem] flex justify-center">and better with us</p>
         </article>
+        <article class="flex justify-center">
+            <p class="rounded-full p-3 w-[13rem] text-center select-none bg-[#0B63DC] uppercase text-white text-[20px] mt-8">view our work</p>
+        </article>
+        <div class="max-w-4xl mx-auto mt-8">
+            <div class=" bg-white shadow-2xl drop-shadow-2xl rounded-xl p-6 w-[57rem]">
+                <div class="grid grid-cols-3">
+                <div class="flex items-center">
+                    <img src="/img/employee.png" alt="">
+                    <div class="-mt-2">
+                        <p class="font-bold">24 HOURS</p>
+                        <P class="py-1 text-[14px] text-gray-400">Lorem ipsum dolor sit amet.</P>
+                    </div>
+                </div>
+                <div class="flex items-center">
+                    <img src="/img/hires.png" alt="">
+                    <div class="-mt-2">
+                        <p class="font-bold">HIGH-RES</p>
+                        <P class="py-1 text-[14px] text-gray-400">Lorem ipsum dolor sit amet.</P>
+                    </div>
+                </div>
+                <div class="flex items-center">
+                    <img src="/img/security.png" alt="">
+                    <div class="-mt-2">
+                        <p class="font-bold">SECURITY</p>
+                        <P class="py-1 text-[14px] text-gray-400">Lorem ipsum dolor sit amet.</P>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+
+     
+           <div class="flex mt-32 max-w-5xl mx-auto gap-8 pb-40">
+               <img src="/img/workingspace.png" alt="">
+               <div class="">
+                <div class="text-[52px] uppercase">
+                    <span>you </span><span class="font-medium">work </span><span>like </span><span>at </span><span class="font-medium">home</span>
+                </div>
+                <p class="text-[18px] text-gray-400">Bekerja dengan suasana hati yang lebih asik, menyenangkan dan mempelajari hal baru setiap harinya.</p>
+                <div class="mt-8">
+                    <div>
+                        <a href="" class="rounded-full bg-red-600 w-[6rem] text-center p-2 text-white">GALLERY</a>
+                    </div>
+                </div>
+               </div>
+           </div>
+
     </main>
 </body>
 </html>
