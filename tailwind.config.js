@@ -9,9 +9,6 @@ module.exports = {
       fontFamily: {
         'viga' : ['viga']
       },
-      backgroundImage: {
-        'hero-pattern': "url('/img/jumbotron-bg.jpg')",
-      },
     },
   },
   plugins: [],
