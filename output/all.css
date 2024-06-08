@@ -1925,6 +1925,10 @@ video {
   background-image: url('/img/jumbotron-bg.jpg');
 }
 
+.bg-\[url\(\'img\/jumbotron-bg\.jpg\'\)\] {
+  background-image: url('img/jumbotron-bg.jpg');
+}
+
 .decoration-slice {
   -webkit-box-decoration-break: slice;
           box-decoration-break: slice;
