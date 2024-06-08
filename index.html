@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com"></script>
+   <link rel="stylesheet" href="output/all.css">
     <link href="https://fonts.googleapis.com/css?family=Viga" rel="stylesheet">
     <title>Landing page</title>
 </head>
@@ -16,7 +16,7 @@
                 <li><a href="">Pricing</a></li>
                 <li><a href="">Features</a></li>
                 <li><a href="">About</a></li>
-                <li><a class="bg-[#0B63DC] rounded-full p-3" href="">JOIN US</a></li>
+                <li><a class="bg-[#0B63DC] hover:bg-blue-800 rounded-full p-3" href="">JOIN US</a></li>
             </ul>
         </nav>
     </header>
@@ -24,12 +24,12 @@
         <div>
           <div class="w-full bg-cover bg-no-repeat h-[650px] absolute -z-50 top-0 bg-[url('/img/jumbotron-bg.jpg')]"></div>
         </div>
-        <article>
-            <span class="text-white text-[4.5rem] flex justify-center mt-40">Get work done faster</span>
-            <p class="text-white text-[4.5rem] flex justify-center">and better with us</p>
+        <article class="mt-40 text-white text-[4.5rem] text-center">
+            <span class="">Get work done<span class="font-medium "> faster</span></span>
+            <p class="">and <span class="font-medium">better</span> with us</p>
         </article>
         <article class="flex justify-center">
-            <p class="rounded-full p-3 w-[13rem] text-center select-none bg-[#0B63DC] uppercase text-white text-[20px] mt-8">view our work</p>
+            <p class="rounded-full p-3 w-[13rem] text-center select-none bg-[#0B63DC] hover uppercase text-white text-[20px] mt-8">view our work</p>
         </article>
         <div class="max-w-4xl mx-auto mt-8">
             <div class=" bg-white shadow-2xl drop-shadow-2xl rounded-xl p-6 w-[57rem]">
@@ -74,7 +74,22 @@
                 </div>
                </div>
            </div>
-
+<div class="container mx-auto flex justify-center">
+    <p class="text-[32px] text-gray-600 italic text-center w-1/2 break-words">"Bekerja dengan suasana hati yang lebih asik dan mempelajari hal baru setiap harinya."</p>
+</div>
+<div class="grid grid-cols-3 max-w-xs mx-auto mt-8 pb-20">
+      <div class="">
+        <img src="/img/img1.png" alt="" class="w-20 rounded-full grayscale">
+      </div>
+      <div class="">
+        <img src="/img/img2.png" alt="" class="w-24 -m-2 rounded-full">
+        <p class="font-bold translate-x-2 mt-4">Sunny Ye</p>
+        <p class="translate-x-4 text-[12px] text-gray-400">Designer</p>
+      </div>
+      <div class="">
+        <img src="/img/img3.png" alt="" class="w-20 rounded-full grayscale">
+      </div>
+</div>
     </main>
 </body>
 </html>
